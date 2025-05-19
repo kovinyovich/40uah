@@ -14,3 +14,4 @@ user_age_str = input("Сколько тебе лет? ")
 user_age_int = int(user_age_str) # Преобразуем строку в целое число
 
 print("Через год тебе будет", user_age_int + 1)
+akeljrhgfn = "aewrghukil"
