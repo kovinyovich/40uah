@@ -1,14 +1,17 @@
-goal1 = "i wanna write a program for learning hebrew"
-goal2 = "also, i wanna create platform (website, app) for psychologists and esotericists"
-goal3 = "i wanna build own dark mansion in real life"
-goal4 = "i wanna create a computer game/VR about another univers"
+goal = "i wanna write a program for learning hebrew"
+print(goal)
+goal = "also, i wanna create platform (website, app) for psychologists and esotericists"
+print(goal)
+goal = "i wanna build own dark mansion in real life"
+print(goal)
 
-goals = (goal1, goal2, goal3, goal4)
+user_name = input("Как тебя зовут? ")
+print("Привет,", user_name + "!") # Здесь + объединяет строки (конкатенация)
 
-#print(type(goals))
+user_age_str = input("Сколько тебе лет? ")
+# ВАЖНО: input() всегда возвращает строку!
+# Если мы хотим работать с возрастом как с числом, его нужно преобразовать:
+user_age_int = int(user_age_str) # Преобразуем строку в целое число
 
-i=0
-for goal in goals:
-    print(goal)
-    print(i)
-    i=i+1
+print("Через год тебе будет", user_age_int + 1)
+akeljrhgfn = "aewrghukil"
