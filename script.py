@@ -3,7 +3,7 @@ goal2 = "also, i wanna create platform (website, app) for psychologists and esot
 goal3 = "i wanna build own dark mansion in real life"
 goal4 = "i wanna create a computer game/VR about another univers"
 
-goals = (goal1, goal2, goal3)
+goals = (goal1, goal2, goal3, goal4)
 
 #print(type(goals))
 
